@@ -1,0 +1,68 @@
+<div class="short-signup">
+    <div class="container centered">
+        <div class="row">
+            <h1>Ready to sign up?</h1>
+            <form role="form" class="form-inline">
+                <div class="form-group">
+                    <label class="sr-only" for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label class="sr-only" for="inputPassword">Password</label>
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+            </form>
+            <p>Free for 30 days! No credit card required to sign up, plus a 30-day money back guarantee.</p>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/container -->
+
+<div id="footerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <h4>Resources</h4>
+                <div class="hline-w"></div>
+                <ul>
+                    <li {% if page.title == "Resource Materials" %}class="active"{% endif %}><a href="{{"/resources/" | prepend: site.baseurl }}">Resource Materials</a></li>
+                    <li {% if page.title == "Webinars" %}class="active"{% endif %}><a href="{{"/webinars/" | prepend: site.baseurl }}">Webinars</a></li>
+                    <li {% if page.title == "Therapy Notes Software" %}class="active"{% endif %}><a href="{{"/therapy-notes-software-for-mental-health/" | prepend: site.baseurl }}">Therapy Notes Software</a></li>
+                    <li {% if page.title == "Private Practice Software" %}class="active"{% endif %}><a href="{{"/private-practice-software-for-mental-health/" | prepend: site.baseurl }}">Private Practice Software</a></li>
+                    <li {% if page.title == "Mental Health Software" %}class="active"{% endif %}><a href="{{"/mental-health-software/" | prepend: site.baseurl }}">Mental Health Software</a></li>
+                    <li {% if page.title == "Social Services Software" %}class="active"{% endif %}><a href="{{"/social-service-software/" | prepend: site.baseurl }}">Social Services Software</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h4>Features</h4>
+                <div class="hline-w"></div>
+                <ul>
+                    <li><a href="http://support.theranest.com/">Support Center</a></li>
+                    <li>Therapy Notes</li>
+                    <li>Client & Billing Management</li>
+                    <li>Client portal add-on</li>
+                    <li>Full-Featured Calendar</li>
+                    <li>Reporting & Analytics</li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h4>Company</h4>
+                <div class="hline-w"></div>
+                <ul>
+                    <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">About</a></li>
+                    <li>Testimonials</li>
+                    <li>FAQ</li>
+                    <li>Blog</li>
+                    <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">Contact</a></li>
+                    <li>Privacy Policy</li>
+                    <li>Terms & Conditions</li>
+                </ul>
+                <p>
+                    {% for network in site.social %}
+                        <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank"><i class="fa fa-{{ network.title }}"></i></a>
+                    {% endfor %}
+                </p>
+            </div>
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/footerwrap -->
