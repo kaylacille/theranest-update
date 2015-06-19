@@ -554,6 +554,10 @@ csmall {
 	background: {{ site.colors.primary }};
 }
 
+.index-features img{
+	 box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
 /* Contact Page */
 #contactwrap {
 	/*background: url(../img/contact.jpg) no-repeat center top;*/
