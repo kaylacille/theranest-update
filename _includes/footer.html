@@ -51,11 +51,11 @@
                 <ul>
                     <li {% if page.title == "About" %}class="active"{% endif %}><a href="{{"/about/" | prepend: site.baseurl }}">About</a></li>
                     <li>Testimonials</li>
-                    <li>FAQ</li>
-                    <li>Blog</li>
+                    <li {% if page.title == "FAQ" %}class="active"{% endif %}><a href="{{"/faq/" | prepend: site.baseurl }}">FAQs</a></li>
+                    <!--<li>Blog</li>-->
                     <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">Contact</a></li>
-                    <li>Privacy Policy</li>
-                    <li>Terms & Conditions</li>
+                    <li {% if page.title == "Privacy" %}class="active"{% endif %}><a href="{{"/privacy/" | prepend: site.baseurl }}">Privacy</a></li>
+                    <li {% if page.title == "Terms" %}class="active"{% endif %}><a href="{{"/terms/" | prepend: site.baseurl }}">Terms & Conditions</a></li>
                 </ul>
                 <p>
                     {% for network in site.social %}
