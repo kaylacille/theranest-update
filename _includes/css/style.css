@@ -209,6 +209,9 @@ a:focus {
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
+.mtb img{
+	 box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
 
 .mb {
 	margin-bottom: 60px;
@@ -554,9 +557,6 @@ csmall {
 	background: {{ site.colors.primary }};
 }
 
-.index-features img{
-	 box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-}
 
 /* Contact Page */
 #contactwrap {
