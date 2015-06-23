@@ -88,7 +88,7 @@ about: "Mental Health Software for Psychologists, Social Workers, Therapists and
 
 # Testimonial content. Shown on Home and About page. 
 testimonial1:
-    message: "All my therapists rave the ease of use, in documenting, scheduling and or billing! Any Questions or problems we think we have are addressed quickly. The training that they offer is easy to understand and comprehend. I recommend Theranest to all my therapist clients!"
+    message: "All my therapists rave the ease of use, in documenting, scheduling and/or billing! Any questions or problems we think we have are addressed quickly. The training that they offer is easy to understand and comprehend. I recommend Theranest to all my therapist clients!"
     author: Davia Ward
     position: Practice Manager, Healthcare Partners Consulting and Billing
 
@@ -96,3 +96,8 @@ testimonial2:
     message: "Theranest does more, costs less, and is easier to use than any other all-in-one product I've tried. I have a small private practice and theranest simplifies all that yucky, paperwork, business end stuff so I can focus on what I love doing--meeting with my clients."
     author: Jeannette Rodriguez-March
     position: Owner/Art and Depth Psychotherapist, Goat Path Counseling
+
+testimonial3:
+    message: "Theranest has made the transition into running a private practice relatively seamless for me. I use it for all of my clinical scheduling, billing, and notes. This product is well-designed and their customer service is excellent! Highly recommend to all private-practice clinicians!"
+    author: Caroline Adelman
+    position: Founder, Chicago Psychotherapy, LLC
