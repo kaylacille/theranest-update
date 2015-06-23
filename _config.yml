@@ -87,7 +87,12 @@ members:
 about: "Mental Health Software for Psychologists, Social Workers, Therapists and Counselors."
 
 # Testimonial content. Shown on Home and About page. 
-testimonial:
-    message: "Works wonderfully! I used to hate doing notes but now I look forward to it. The organization and structure make it so simple. Thanks so much."
-    author: Bryce Landwehr
-    position: Counselor, Impact Family Counseling
+testimonial1:
+    message: "All my therapists rave the ease of use, in documenting, scheduling and or billing! Any Questions or problems we think we have are addressed quickly. The training that they offer is easy to understand and comprehend. I recommend Theranest to all my therapist clients!"
+    author: Davia Ward
+    position: Practice Manager, Healthcare Partners Consulting and Billing
+
+testimonial2:
+    message: "Theranest does more, costs less, and is easier to use than any other all-in-one product I've tried. I have a small private practice and theranest simplifies all that yucky, paperwork, business end stuff so I can focus on what I love doing--meeting with my clients."
+    author: Jeannette Rodriguez-March
+    position: Owner/Art and Depth Psychotherapist, Goat Path Counseling

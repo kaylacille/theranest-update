@@ -561,7 +561,7 @@ csmall {
   background-color: #9DC641;
 }
 
-.navbar-default .navbar-nav > .login-btn li > a:hover {
+.login-btn a:hover {
   color: #fff;
 }
 
