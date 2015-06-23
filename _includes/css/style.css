@@ -557,6 +557,14 @@ csmall {
 	background: {{ site.colors.primary }};
 }
 
+.login-btn li {
+  background-color: #9DC641;
+}
+
+.navbar-default .navbar-nav > .login-btn li > a:hover {
+  color: #fff;
+}
+
 
 /* Contact Page */
 #contactwrap {
