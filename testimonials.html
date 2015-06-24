@@ -6,25 +6,15 @@ permalink: /testimonials/
 
 <div class="container mtb">
     <div class="row">
-
-        <! -- BLOG POSTS LIST -->
-        <div class="col-lg-12">
-
-            {% for post in site.categories['testimonial'] %}
-                <! -- Blog Post -->
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
-                </a>    
-                <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
-                {{ post.excerpt }}
-                <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
-                <div class="hline"></div>
-
-                <div class="spacing"></div>
-            {% endfor %}
-
+        <div class="col-lg-8">
+        > "After reviewing many, many electronic charting programs for our clinic (we have between 10-20 therapists working at a time, and 90 - 120 active clients), we selected TheraNest because of its clean interface, usability, and customer service. Overall, we could not be more happy with our decision. It has been relatively easy to train our clinic staff and therapists how to use TheraNest, and the customer service representatives have always gotten back to us quickly with helpful information when we've run into small problems along the way."
         </div><! --/col-lg-8 -->
+
+        <div class="col-lg-8">
+            <img class="img-circle" src="/assets/img/clients/plu-logo.jpg" alt="PLU Logo">
+            <h4>Lindsey Lawson</h4>
+            <p>Clinic Director, Pacific Lutheran University</p>
+        </div>
 
     </div><! --/row -->
 </div><! --/container -->
