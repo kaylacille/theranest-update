@@ -792,9 +792,6 @@ a.anchor{
 	#twrap{
 	  min-height: 400px;
 	}
-    #quote-carousel .carousel-indicators {
-        bottom: -20px !important;  
-    }
     #quote-carousel .carousel-indicators li {
         display: inline-block;
         margin: 0px 5px;
