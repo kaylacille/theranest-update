@@ -136,10 +136,6 @@ a:focus {
 	color: {{ site.colors.primary }};
 }
 
-.login-btn .navbar-default .navbar-nav > li > a:hover {
-	color: #fff;
-}
-
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: {{ site.colors.primary }};
 	background-color: transparent;
@@ -566,7 +562,7 @@ csmall {
 	background: {{ site.colors.primary }};
 }
 
-.login-btn {
+.login-btn a{
   background-color: #9DC641;
 }
 
