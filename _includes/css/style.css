@@ -194,8 +194,8 @@ a:focus {
 .btn-theme-green.active,
 .open .dropdown-toggle.btn-theme-green {
   color: #fff;
-  background-color: {{ site.colors.primary }};
-  border-color: {{ site.colors.primary }}
+  background-color: {{ site.colors.secondary }};
+  border-color: {{ site.colors.secondary }}
 }
 
 .dmbutton:hover,
