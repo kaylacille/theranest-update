@@ -567,7 +567,7 @@ csmall {
 }
 
 .login-btn a:hover {
-  color: #fff;
+  color: #fff !important;
 }
 
 
