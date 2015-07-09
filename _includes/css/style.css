@@ -562,7 +562,7 @@ csmall {
 	background: {{ site.colors.primary }};
 }
 
-.login-btn a{
+.login-btn {
   background-color: #9DC641;
 }
 
