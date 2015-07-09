@@ -775,13 +775,16 @@ a.anchor{
       margin-bottom: 0;
       padding: 0 40px 30px 40px;
     }
-    .himg{
+    .desktop-hide{
     	display: none;
     }
 }
 
 /* Small devices (tablets, up to 768px) */
 @media (max-width: 768px) { 
+	.mobile-hide{
+    	display: none;
+    }
 	#headerwrap h1 {
 	  font-size: 32px;
 	}
