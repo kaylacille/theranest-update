@@ -177,6 +177,27 @@ a:focus {
   border-color: #9dc641;
 }
 
+.btn-theme-green {
+  color: #fff;
+  background-color: {{ site.colors.green }};
+  border-color: {{ site.colors.green }};
+  margin: 4px;
+  font-size: 18px;
+  padding: 10px 18px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+.btn-theme-green:hover,
+.btn-theme-green:focus,
+.btn-theme-green:active,
+.btn-theme-green.active,
+.open .dropdown-toggle.btn-theme-green {
+  color: #fff;
+  background-color: {{ site.colors.primary }};
+  border-color: {{ site.colors.primary }}
+}
+
 .dmbutton:hover,
 .dmbutton:active,
 .dmbutton:focus{
