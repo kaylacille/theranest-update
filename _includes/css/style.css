@@ -665,6 +665,12 @@ td.green-price{
   font-weight: bold;
 }
 
+td.blue-price{
+  color: {{ site.colors.primary }};
+  font-size: 24px;
+  font-weight: bold;
+}
+
 /* Quote Carousel */
 #quote-carousel 
 {
