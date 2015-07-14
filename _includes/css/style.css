@@ -658,6 +658,13 @@ a.anchor{
     visibility: hidden;
 }
 
+/* PRICING PAGE */
+.green-price td{
+  color: {{ site.colors.green }};
+  font-size: 24px;
+  font-weight: bold;
+}
+
 /* Quote Carousel */
 #quote-carousel 
 {
