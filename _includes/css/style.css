@@ -677,7 +677,7 @@ td.clients{
 
 /* LOGIN/SIGN UP PAGE */
 #login-page{
-	background-image: url(../img/mental-health-software-dashboard.jpg);
+	background-image: url(../img/mental-health-software-dashboard_green.jpg);
   background-position: center center;
   background-repeat: none;
   	-webkit-background-size: cover;
@@ -685,9 +685,6 @@ td.clients{
   background-size: cover;
   	-o-background-size: cover;
 	min-height: 0px;
-	padding-top: 100px;
-	padding-bottom: 50px;
-	text-align: center;
 	position: relative;
 }
 
