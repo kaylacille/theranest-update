@@ -677,11 +677,7 @@ td.clients{
 
 /* LOGIN/SIGN UP PAGE */
 #login-page{
-	background-image: url(../img/mental-health-software-dashboard.jpg);
-  background-position: center center;
-  background-repeat: none !important;
-	min-height: 0px;
-	position: relative;
+	background: url('../img/retina_wood.png') repeat;
 }
 
 /* Quote Carousel */
