@@ -679,7 +679,7 @@ td.clients{
 #login-page{
 	background-image: url(../img/mental-health-software-dashboard_green.jpg);
   background-position: center center;
-  background-repeat: none;
+  background-repeat: none !important;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   background-size: cover;
