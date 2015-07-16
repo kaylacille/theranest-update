@@ -680,10 +680,6 @@ td.clients{
 	background-image: url(../img/mental-health-software-dashboard.jpg);
   background-position: center center;
   background-repeat: none !important;
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  background-size: cover;
-  	-o-background-size: cover;
 	min-height: 0px;
 	position: relative;
 }
