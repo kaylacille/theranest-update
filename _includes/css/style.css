@@ -675,6 +675,11 @@ td.clients{
   font-size: 16px;
 }
 
+/* LOGIN/SIGN UP PAGE */
+#login-page{
+	background-image: url(../img/mental-health-software-dashboard.jpg); 
+}
+
 /* Quote Carousel */
 #quote-carousel 
 {
