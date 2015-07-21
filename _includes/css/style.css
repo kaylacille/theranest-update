@@ -51,7 +51,7 @@ img {
 }
 
 ul {
-  list-style-type: none;
+  margin-left: 0;
   padding: 0;
   margin-bottom: 12px;
   font-family: 'Lato', sans-serif;
@@ -60,14 +60,6 @@ ul {
   line-height: 26px;
   color: #474747;
 
-}
-
-ul li {
-    background-image: url(../img/check.png);
-    background-repeat: no-repeat;
-    background-position: 0px center; 
-    padding-left: 15px;
-    background-size: 20px 20px;
 }
 
 ol {
