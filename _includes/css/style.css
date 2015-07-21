@@ -51,15 +51,24 @@ img {
 }
 
 ul {
-  margin-left: 0;
+  list-style-type: none;
   padding: 0;
   margin-bottom: 12px;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 26px;
   color: #474747;
 
+}
+
+ul li {
+    background-image: url(../img/check.png);
+    background-repeat: no-repeat;
+    background-position: 0px center; 
+    padding-left: 15px;
+    width:20px;
+    height: 20px;
 }
 
 ol {
