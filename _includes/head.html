@@ -10,13 +10,13 @@
     <meta name="author" content="TheraNest">
     <link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | prepend: site.baseurl }}">
 
+    {% if page.title %}
     <title>
-      {% if page.title %}
         {{ page.title }}
       {% else %}
         Mental Health Software | TheraNest Therapy Notes Software
-      {% endif %}
     </title>
+    {% endif %}
 
     <!-- Bootstrap core CSS -->
     <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
