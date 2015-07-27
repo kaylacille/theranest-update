@@ -2,13 +2,21 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     {% if page.description %}
     <meta name="description" content="{{ page.description}}" />
     {% endif %}
+
     <meta name="author" content="TheraNest">
     <link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | prepend: site.baseurl }}">
 
-    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+    <title>
+      {% if page.title %}
+        {{ page.title }}
+      {% else %}
+        Mental Health Software | TheraNest Therapy Notes Software
+      {% endif %}
+    </title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
