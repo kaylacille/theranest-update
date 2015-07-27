@@ -16,6 +16,14 @@
   {% endif %}
     </title>
 
+    <!-- Facebook Open Graph -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.theranest.com/" />
+    <meta property="og:image" content="{{ "/assets/img/og_image.png" | prepend: site.baseurl }}" />
+    <meta property="og:site_name" content="TheraNest - Mental and Social Services Software" />
+    <meta property="og:description" content="Mental health software for psychologists, social workers, therapists, counselors." />
+
     <!-- Bootstrap core CSS -->
     <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
 
