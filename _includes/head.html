@@ -6,17 +6,17 @@
     {% if page.description %}
     <meta name="description" content="{{ page.description}}" />
     {% endif %}
-
+    
     <meta name="author" content="TheraNest">
     <link rel="shortcut icon" href="{{ "/assets/img/favicon.ico" | prepend: site.baseurl }}">
 
-    {% if page.title %}
     <title>
+      {% if page.title %}
         {{ page.title }}
       {% else %}
-        Mental Health Software | TheraNest Therapy Notes Software
-    </title>
-    {% endif %}
+        Default Page Title
+      {% endif %}
+</title>
 
     <!-- Bootstrap core CSS -->
     <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
