@@ -2,7 +2,6 @@
 
 # Site settings
 title: "Mental Health Software for Psychologists, Social Workers, Therapists and Counselors."
-#description: "Easy to use, affordable mental health software for therapists, social workers, psychologists & counselors. Easy therapy notes - Free Trial"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/theranest-update" #important: start with /
 url: "http://kaylacille.github.io/theranest-update"
