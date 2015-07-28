@@ -659,13 +659,13 @@ a.anchor{
 }
 
 /* PRICING PAGE */
-td.green-price{
+td.green-price a{
   color: {{ site.colors.green }};
   font-size: 24px;
   font-weight: bold;
 }
 
-td.blue-price{
+td.blue-price a{
   color: {{ site.colors.primary }};
   font-size: 24px;
   font-weight: bold;
