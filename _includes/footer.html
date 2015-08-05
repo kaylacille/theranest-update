@@ -18,7 +18,7 @@
     </div><! --/container -->
 </div><! --/container -->
 
-<div id="footerwrap">
+<div id="footerwrap" class="mobile-hide">
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
@@ -66,3 +66,14 @@
         </div><! --/row -->
     </div><! --/container -->
 </div><! --/footerwrap -->
+
+ <div class="container centered desktop-hide">
+    <div class="row">
+        <p>
+            {% for network in site.social %}
+                <a href="{{ network.url }}" class="btn-social btn-outline" target="_blank" onclick="_gaq.push(['_trackEvent', 'Footer - Social Media', 'clicked', 'Social Media'])"><i class="fa fa-{{ network.title }}"></i></a>
+            {% endfor %}
+        </p>
+        <a href="{{"/terms/" | prepend: site.baseurl }}" onclick="_gaq.push(['_trackEvent', 'Footer - Company', 'clicked', 'Terms'])">Terms & Conditions</a>
+    </div>
+</div>
