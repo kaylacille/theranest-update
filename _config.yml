@@ -2,7 +2,7 @@
 
 # Site settings
 title: "Mental Health Software for Psychologists, Social Workers, Therapists and Counselors."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+analytics: #UA-40222088-2
 baseurl: "/theranest-update" #important: start with /
 url: "http://kaylacille.github.io/theranest-update"
 

@@ -12,12 +12,12 @@
     </div>
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
-        <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
-        <li {% if page.title == "Features" %}class="active"{% endif %}><a href="{{"/features/" | prepend: site.baseurl }}">FEATURES</a></li>
-        <li {% if page.title == "Pricing" %}class="active"{% endif %}><a href="{{"/pricing/" | prepend: site.baseurl }}">PRICING</a></li>
-        <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">CONTACT</a></li>
-        <li {% if page.title == "Sign Up for TheraNest" %}class="active"{% endif %}><a href="{{"/sign-up/" | prepend: site.baseurl }}">SIGN UP</a></li>
-        <li class="login-btn" {% if page.title == "Sign In" %}class="active"{% endif %}><a href="{{"/login/" | prepend: site.baseurl }}">LOGIN</a></li>
+        <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}" onclick="_gaq.push(['_trackEvent', 'Navigation', 'clicked', 'Home'])">HOME</a></li>
+        <li {% if page.title == "Features" %}class="active"{% endif %}><a href="{{"/features/" | prepend: site.baseurl }}" onclick="_gaq.push(['_trackEvent', 'Navigation', 'clicked', 'Features'])">FEATURES</a></li>
+        <li {% if page.title == "Pricing" %}class="active"{% endif %}><a href="{{"/pricing/" | prepend: site.baseurl }}" onclick="_gaq.push(['_trackEvent', 'Navigation', 'clicked', 'Pricing'])">PRICING</a></li>
+        <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}" onclick="_gaq.push(['_trackEvent', 'Navigation', 'clicked', 'Contact'])">CONTACT</a></li>
+        <li {% if page.title == "Sign Up for TheraNest" %}class="active"{% endif %}><a href="{{"/sign-up/" | prepend: site.baseurl }}" onclick="_gaq.push(['_trackEvent', 'Navigation', 'clicked', 'Sign Up'])">SIGN UP</a></li>
+        <li class="login-btn" {% if page.title == "Sign In" %}class="active"{% endif %}><a href="{{"/login/" | prepend: site.baseurl }}" onclick="_gaq.push(['_trackEvent', 'Navigation', 'clicked', 'Login'])">LOGIN</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
