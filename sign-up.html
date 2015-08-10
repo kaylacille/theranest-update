@@ -18,6 +18,16 @@ permalink: /sign-up/
                         
                 <div style="margin-bottom: 25px" class="input-group">
                     <span class="input-group-addon"></span>
+                    <input id="login-firstname" type="text" class="form-control" name="firstname" value="" placeholder="First Name">
+                </div>
+
+                <div style="margin-bottom: 25px" class="input-group">
+                    <span class="input-group-addon"></span>
+                    <input id="login-lastname" type="text" class="form-control" name="lastname" value="" placeholder="Last Name">
+                </div>
+
+                <div style="margin-bottom: 25px" class="input-group">
+                    <span class="input-group-addon"></span>
                     <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="Email">
                 </div>
                     
@@ -31,6 +41,15 @@ permalink: /sign-up/
                     <input id="confirm-password" type="password" class="form-control" name="confirm-password" placeholder="Confirm Password">
                 </div>
 
+                <div style="margin-bottom: 25px" class="input-group">
+                    <span class="input-group-addon"></span>
+                    <input id="discountCode" type="text" class="form-control" name="discountCode" value="" placeholder="Promo code (if any). Applied after activating a subscription.">
+                </div>
+
+                <div class="checkbox">
+                    <label><input type="checkbox"> I accept the terms and conditions.</label>
+                </div>
+
                 <div style="margin-top:10px" class="form-group">
                     <!-- Button -->
                     <div class="col-sm-12 controls">
@@ -40,8 +59,16 @@ permalink: /sign-up/
 
                 <div class="form-group">
                     <div class="col-md-12 control">
-                        <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
                             Create your account and start your free trial. No credit card required.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-12 control">
+                        <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
+                            <a href="#" onclick="$('#discount').toggle(); return false;">Add it</a>Click here to add promo code.</a>
+                            <p>Already have an account? <a href="{{"/login/" | prepend: site.baseurl }}" onclick="_gaq.push(['_trackEvent', 'Deep Links', 'clicked', 'Sign Up - Login'])">Login here.</a></p>
                         </div>
                     </div>
                 </div>
