@@ -38,9 +38,7 @@ permalink: /login/
                     <div class="col-md-12 control">
                         <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
                             Don't have an account? 
-                        <a href="#">
-                            Sign Up Here
-                        </a>
+                        <a href="{{"/sign-up/" | prepend: site.baseurl }}" onclick="_gaq.push(['_trackEvent', 'Deep Links', 'clicked', 'Login - Sign Up'])">Sign Up Here</a>
                         </div>
                     </div>
                 </div>
