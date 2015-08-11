@@ -38,11 +38,6 @@ h1.shrug{
 	font-size: 80px;
 }
 
-h1.huge{
-	font-size: 90px;
-	color: {{ site.colors.primary }}
-}
-
 p { 
   padding: 0;
   margin-bottom: 12px;
@@ -842,7 +837,10 @@ td.clients{
 	#headerwrap h2 {
 	  font-size: 22px;
 	}
-	.carousel-inner h2{
+	.container h1{
+		font-size: 22px;
+	}
+	.carousel-inner h3{
 	  font-size: 22px;
 	}
 	#twrap{
