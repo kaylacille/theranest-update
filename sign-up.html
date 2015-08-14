@@ -56,13 +56,19 @@ permalink: /sign-up/
                     </div> 
                 </div>
 
-                <div class="input-group">
-                    <span class="input-group-addon"><i class="glyphicon glyphicon-star"></i></span>
-                    <input id="discountCode" type="text" class="form-control" value="" placeholder="Promo code (if any). Applied after activating a subscription.">
+                <div class="form-group has-error">
+                    <label class="help-block" for="discountCode">Promo code not valid.</label>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-star"></i></span>
+                        <input id="discountCode" type="text" class="form-control" value="" placeholder="Promo code (if any). Applied after activating a subscription.">
+                    </div>
                 </div>
 
-                <div class="checkbox" style="text-align: left;">
-                    <label><input type="checkbox"> I accept the terms and conditions.</label>
+                <div class="form-group has-error">
+                    <label class="help-block" for="terms-checkbox">You must accept the terms and conditions to continue.</label>
+                    <div class="checkbox" style="text-align: left;">
+                        <label><input id="terms-checkbox" type="checkbox"> I accept the terms and conditions.</label>
+                    </div>
                 </div>
 
                 <div style="margin-top:10px" class="form-group">
