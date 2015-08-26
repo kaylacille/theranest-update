@@ -411,7 +411,7 @@ a:focus {
     background-size: cover;
 }
 
-#su-wrap h1{
+#su-wrap h1 a{
 	font-size: 50px;
 	color:#fff;
 }
